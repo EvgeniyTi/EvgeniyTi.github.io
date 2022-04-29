@@ -49,7 +49,7 @@
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    color: var(--white-white);
+    color: $white-white;
     font-weight: 400;
     font-style: normal;
 }
@@ -57,7 +57,7 @@
 .sales__pink {
     font-size: 24px;
     line-height: 29px;
-    color: var(--dark-pink);
+    color: $dark-pink;
     text-align: center;
     font-weight: 700;
     font-style: normal;

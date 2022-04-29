@@ -458,7 +458,7 @@ img {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  color: var(--white-white);
+  color: #FFFFFF;
   font-weight: 400;
   font-style: normal;
 }
@@ -466,7 +466,7 @@ img {
 .sales__pink {
   font-size: 24px;
   line-height: 29px;
-  color: var(--dark-pink);
+  color: #F16D7F;
   text-align: center;
   font-weight: 700;
   font-style: normal;
@@ -485,14 +485,14 @@ img {
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
-  color: var(--black);
+  color: #222222;
 }
 
 .catalog__title p {
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: var(--grey);
+  color: #9F9F9F;
   margin-bottom: 48px;
 }
 
@@ -520,7 +520,7 @@ img {
 }
 
 .catalog__item {
-  background-color: var(--white);
+  background-color: #FBFBFB;
   position: relative;
 }
 
@@ -576,14 +576,14 @@ img {
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
-  color: var(--black);
+  color: #222222;
 }
 
 .catalog__item-text {
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
-  color: var(--dark-grey);
+  color: #5D5D5D;
   margin: 0 28px 18px 16px;
 }
 
@@ -591,14 +591,14 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: var(--dark-pink);
+  color: #F16D7F;
   padding: 0 289px 20px 18px;
 }
 
 .catalog__link-allproduct {
   text-decoration: none;
-  border: 1px solid var(--dark-pink-border);
-  color: var(--dark-pink-border-text);
+  border: 1px solid #FF6A6A;
+  color: #F26376;
   text-transform: capitalize;
   font-weight: 400;
   font-size: 16px;
@@ -610,6 +610,11 @@ img {
 .catalog__link {
   display: flex;
   justify-content: center;
+}
+
+.catalog__link-allproduct:hover {
+  color: #FBFBFB;
+  background-color: #F16D7F;
 }
 
 .benefits {
