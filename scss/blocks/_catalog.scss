@@ -11,14 +11,14 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
-    color: var(--black);
+    color: $black;
 }
 
 .catalog__title p {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    color: var(--grey);
+    color: $grey;
     margin-bottom: 48px;
 }
 
@@ -48,7 +48,7 @@
 
 
 .catalog__item {
-    background-color: var(--white);
+    background-color: $white;
     position: relative;
 
 }
@@ -107,14 +107,14 @@
     font-weight: 400;
     font-size: 13px;
     line-height: 16px;
-    color: var(--black);
+    color: $black;
 }
 
 .catalog__item-text {
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
-    color: var(--dark-grey);
+    color: $dark-grey;
     margin: 0 28px 18px 16px;
 }
 
@@ -122,14 +122,14 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: var(--dark-pink);
+    color: $dark-pink;
     padding: 0 289px 20px 18px;
 }
 
 .catalog__link-allproduct {
     text-decoration: none;
-    border: 1px solid var(--dark-pink-border);
-    color: var(--dark-pink-border-text);
+    border: 1px solid $dark-pink-border;
+    color: $dark-pink-border-text;
     text-transform: capitalize;
     font-weight: 400;
     font-size: 16px;
@@ -142,4 +142,9 @@
 .catalog__link {
     display: flex;
     justify-content: center;
+}
+
+.catalog__link-allproduct:hover {
+    color: $white;
+    background-color: $dark-pink;
 }

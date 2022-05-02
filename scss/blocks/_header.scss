@@ -68,10 +68,6 @@
 
 }
 
-.header__nav {
-    display: none;
-}
-
 .header__item {
     margin: 0 34px 0 0;
 
@@ -87,7 +83,7 @@
     width: 19px;
     height: 19px;
     background-color: $dark-pink;
-    border-radius: 8px 8px 8px 8px;
+    border-radius: 50%;
     color: $white-white;
     position: absolute;
     right: -5px;
