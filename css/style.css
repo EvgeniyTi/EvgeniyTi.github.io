@@ -146,6 +146,7 @@ body {
 .container {
   width: 1140px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 img {
@@ -835,6 +836,11 @@ img {
   margin-left: 24px;
 }
 
+.carts__title {
+  max-width: 200px;
+  text-transform: uppercase;
+}
+
 .carts-all__info--text p > .decor--color {
   color: #6F6E6E;
 }
@@ -844,7 +850,7 @@ img {
   padding-right: 22px;
 }
 
-.carts-all__buttom {
+.carts__buttom {
   width: 100%;
   max-width: 652px;
   display: flex;
@@ -852,31 +858,33 @@ img {
   margin-top: 72px;
 }
 
-.carts-all__buttom a {
+.carts__buttom a {
   text-decoration: none;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
   border: 1px solid #A4A4A4;
   padding: 17px 40px;
+  text-transform: uppercase;
 }
 
-.carts-forms {
+.carts__forms {
   padding-bottom: 200px;
 }
 
-.carts-forms__adress {
+.carts__forms-adress {
   display: grid;
 }
 
-.carts-forms__adress--text {
+.carts__forms-title {
   font-size: 16px;
   line-height: 19px;
   color: #222222;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
-.carts-forms__adress--placeholder {
+.carts__forms-placeholder {
   padding: 13px 0 16px 17px;
   font-size: 13px;
   line-height: 16px;
@@ -885,7 +893,7 @@ img {
   margin-bottom: 20px;
 }
 
-.carts-forms__adress--botton {
+.carts__forms-botton {
   font-size: 11px;
   line-height: 13px;
   color: #4A4A4A;
@@ -894,9 +902,10 @@ img {
   width: 101px;
   margin-top: 13px;
   text-align: center;
+  text-transform: uppercase;
 }
 
-.carts-forms__sale {
+.carts__forms-sale {
   width: 100%;
   max-width: 360px;
   background: #F5F3F3;
@@ -928,6 +937,8 @@ img {
   line-height: 13px;
   color: #4A4A4A;
   margin-bottom: 12px;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 .cart--text2 {
@@ -936,6 +947,8 @@ img {
   color: #222222;
   padding-bottom: 21px;
   border-bottom: 1px solid #E2E2E2;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 .card--decor {
@@ -1072,9 +1085,6 @@ img {
   font-weight: normal;
 }
 
-/* .nav-list-item {
-      
-    } */
 .nav-list-item > a {
   display: block;
   margin: 0 0 11px 0;
